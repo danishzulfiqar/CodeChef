@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*html": "html",
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "complex": "cpp",
+        "cstdlib": "cpp",
+        "valarray": "cpp",
+        "xiosbase": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
