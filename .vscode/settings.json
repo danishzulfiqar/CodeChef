@@ -8,7 +8,8 @@
         "complex": "cpp",
         "cstdlib": "cpp",
         "valarray": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "random": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
