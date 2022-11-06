@@ -14,7 +14,7 @@ int main()
         int n, maxi = 0;
         cin >> n;
         int arr[n];
-        int frq[1000] = {0};
+        int frq[1001] = {0};
 
         for (int i = 0; i < n; i++)
         {
