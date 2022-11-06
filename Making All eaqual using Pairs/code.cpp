@@ -22,25 +22,14 @@ int main()
             frq[arr[i]] += 1;
         }
 
-        for (int i = 0; i <= 1000; i++)
-        {
-            if (maxi < frq[i])
-            {
-                maxi = i;
-            }
-        }
-
         int counter = 0;
 
         for (int i = 0; i < n; i++)
         {
-            if (arr[i] != maxi)
-            {
-                counter++;
-            }
+            counter = max(counter, frq[arr[i]]);
         }
 
-        cout << counter << endl;
+        cout << n - counter << endl;
     }
     return 0;
 }
