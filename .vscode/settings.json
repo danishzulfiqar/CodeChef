@@ -9,7 +9,10 @@
         "cstdlib": "cpp",
         "valarray": "cpp",
         "xiosbase": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "iosfwd": "cpp",
+        "map": "cpp",
+        "xstring": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

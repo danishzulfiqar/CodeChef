@@ -16,16 +16,12 @@ int main()
         int arr[n];
         int frq[1001] = {0};
 
-        for (int i = 0; i < n; i++)
-        {
-            cin >> arr[i];
-            frq[arr[i]] += 1;
-        }
-
         int counter = 0;
 
         for (int i = 0; i < n; i++)
         {
+            cin >> arr[i];
+            frq[arr[i]] += 1;
             counter = max(counter, frq[arr[i]]);
         }
 
